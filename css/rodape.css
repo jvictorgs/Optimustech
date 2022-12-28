@@ -1,0 +1,47 @@
+footer {
+    padding: 96px 0px;
+}
+
+.rodape_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 304px;
+    padding: 0px 32px;
+}
+
+.rodape_titulo {
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 600;
+}
+
+.rodape_texto {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 20px;
+    color: var(--cinza);
+}
+
+.rodape_container2 {
+    display: flex;
+    padding-top: 40px;
+    gap: 8px;
+}
+
+.rodape_input {
+    border-radius: 10px;
+    width: 275px;
+    height: 48px;
+    padding-left: 20px;
+}
+
+.rodape_copy {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-top: 32px;
+    color: var(--cinza);
+}

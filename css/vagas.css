@@ -1,0 +1,76 @@
+.vagas {
+  margin: 96px 80px 96px 80px;
+}
+
+/* Container 1*/
+
+.vagas_container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 32px;
+}
+
+.vagas_span {
+  color: var(--vermelho);
+  font-weight: 600;
+  text-align: center;
+}
+
+.vagas_titulo {
+  font-size: 34px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.vagas_texto {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--cinza);
+  text-align: center;
+}
+
+.container1_imagem {
+  margin-top: 64px;
+}
+
+.container2_lista {
+  padding-left: 20px;
+}
+
+/* Container 2*/
+
+.container2 {
+  margin: 0px 336px;
+  padding: 64px 32px 0px 32px;
+}
+
+.container2_design {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.container2_titulo {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 32px;
+}
+
+.container2_paragrafo {
+  font-size: 16px;
+  color: var(--cinza);
+}
+
+.container2_lista-gap {
+  display: flex;
+  gap: 24px;
+}
+
+.container2_li {
+  padding: 24px 24px 28px 24px;
+}
+
+.container2_list2 {
+  margin-top: 64px;
+}

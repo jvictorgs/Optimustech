@@ -1,0 +1,28 @@
+.cabecalho_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 96px 0;
+  gap: 24px;
+}
+
+.cabecalho_sobre {
+  color: var(--vermelho);
+  font-weight: 600;
+}
+
+.cabecalho_titulo {
+  font-weight: 600;
+  font-size: 46px;
+}
+
+.cabecalho_paragrafo {
+  width: 680px;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--cinza);
+  text-align: center;
+  padding-top: 12px;
+}

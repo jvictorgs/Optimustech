@@ -1,0 +1,44 @@
+.resultados {
+  margin: 96px 80px 96px 80px;
+}
+
+.resultados_principal {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 32px;
+}
+
+.resultados_projetos,
+.resultados_colaboradores,
+.resultados_downloads,
+.resultados_reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 265px;
+}
+
+.resultados_caixa {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.resultados_titulo {
+  font-weight: 700;
+  font-size: 60px;
+  color: var(--vermelho);
+}
+
+.resultados_sub-titulo {
+  font-size: 18px;
+  color: #101828;
+  font-weight: 600;
+}
+
+.resultados_texto {
+  font-weight: 400;
+  color: var(--cinza);
+  font-size: 16px;
+  line-height: 26px;
+}
